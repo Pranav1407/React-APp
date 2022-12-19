@@ -18,7 +18,7 @@ class Home extends React.Component{
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
-            <div class="header-text">
+            <div class="header-text" data-aos="fade-up" data-aos-duration="2000">
                 <p>WEB DEVELOPER</p>
                 <h1>Hi, I'm <span>Pranav Krishnaa</span><br/> From Erode</h1>
                 <h4>Student | Mentee at Spotknack | Hard worker | Careerist | Adaptable</h4>
@@ -28,8 +28,8 @@ class Home extends React.Component{
     <div id="about">
         <div class="container">
             <div class="row">
-                <div class="about-col-1"><img src="assets/user.jpg"/></div>
-                <div class="about-col-2"><h1 class="subtitle">About Me</h1><p class="ab">I'm a jovial person who is interested in Technologies and uprising technical fields and I'm curious to learn new things and explore the things.I'm a hard worker and has the eagerness to process the task assigned.I can pursue my dreams and desires until I succeed in my career.
+                <div class="about-col-1" data-aos="fade-right" data-aos-duration="2000"><img src="assets/user.jpg"/></div>
+                <div class="about-col-2" data-aos="fade-left" data-aos-duration="2000"><h1 class="subtitle">About Me</h1><p class="ab">I'm a jovial person who is interested in Technologies and uprising technical fields and I'm curious to learn new things and explore the things.I'm a hard worker and has the eagerness to process the task assigned.I can pursue my dreams and desires until I succeed in my career.
                     <br/>I'm currently learning FRONT-END development on Spotknack - Skill Development Community and started following my dreams !!!
                     </p>
                     <div class="titles">
@@ -51,9 +51,9 @@ class Home extends React.Component{
 
     <div id="portfolio">
         <div class="container">
-            <h1 class="subtitle">My Works</h1>
+            <h1 class="subtitle" data-aos="zoom-in" data-aos-duration="2000">My Works</h1>
             <div class="work-list">
-                <div class="work">
+                <div class="work" data-aos="flip-right" data-aos-duration="2000">
                     <img src="assets/insta.png"/>
                     <div class="layer">
                         <h3>Instagram Home Page</h3>
@@ -61,7 +61,7 @@ class Home extends React.Component{
                         <a href="https://instagram-index.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
-                <div class="work">
+                <div class="work" data-aos="flip-left" data-aos-duration="2000">
                     <img src="assets/youtube.jpg"/>
                     <div class="layer">
                         <h3>YouTube Home Page</h3>
@@ -77,7 +77,7 @@ class Home extends React.Component{
     <div id="contact">
         <div class="container">
             <div class="row">
-                <div class="contact-left">
+                <div class="contact-left" data-aos="zoom-out" data-aos-duration="2000">
                     <h1 class="sub-title">Contact Me</h1>
                     <p><i class="fa-solid fa-at"></i>pranavkrishnaa.2003@gmail.com</p>
                     <p><i class="fa-solid fa-phone"></i>8248469714</p>
@@ -87,7 +87,7 @@ class Home extends React.Component{
                         <a href="https://twitter.com/pranav_krishnaa?t=IzNUCFGuoUaBfRWELWwd8w&s=09" target="_blank"><i class="fa-brands fa-twitter"></i></a>
                     </div>
                 </div>
-                <div class="contact-right">
+                <div class="contact-right" data-aos="flip-down" data-aos-duration="2000">
                     <form>
                         <input type="text" name="Name" placeholder="Your Name" required/>
                         <input type="email" name="Email" placeholder="Your Email" required/>
